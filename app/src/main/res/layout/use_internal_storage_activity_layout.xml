@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/getfiledata_edittext"
+        android:layout_marginTop="20dp"
+        android:hint="enter text to save in file"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/save_data_to_file_button"
+        android:layout_marginTop="20dp"
+        android:text="Save Data To File"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/view_data_from_file_button"
+        android:layout_marginTop="20dp"
+        android:text="View Data from File"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewfile_data_textview"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>

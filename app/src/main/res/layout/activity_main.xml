@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="xerces.infotech.datastorageoptions.MainActivity">
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="USE SHARED PREFERENCES"
+    android:id="@+id/use_sharedPreferences_button"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="USE SQLITE DATABASE"
+        android:layout_below="@+id/use_sharedPreferences_button"
+        android:id="@+id/use_sqlite_storage_options"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="USE INTERNAL STORAGE "
+        android:layout_below="@+id/use_sqlite_storage_options"
+        android:id="@+id/use_Internal_storage_option"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="USE EXTERNAL STORAGE "
+        android:layout_below="@+id/use_Internal_storage_option"
+        android:id="@+id/use_external_storage_option"
+        android:layout_marginTop="20dp"/>
+</RelativeLayout>
