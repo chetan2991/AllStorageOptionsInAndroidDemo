@@ -18,6 +18,8 @@
         </activity>
         <activity android:name=".SharedPreferenceActivity"></activity>
         <activity android:name=".UseInternalStorageOptionActivity"></activity>
+        <activity android:name=".SqliteStorageOptions"></activity>
+
     </application>
 
 </manifest>

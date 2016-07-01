@@ -33,7 +33,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="View Save Values To in DataBase"
+        android:text="View Save Values To in DataBase by username"
         android:id="@+id/view_values_button"/>
     <TextView
         android:layout_width="match_parent"
