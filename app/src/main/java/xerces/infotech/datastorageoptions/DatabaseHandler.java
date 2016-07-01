@@ -22,6 +22,7 @@ public class DatabaseHandler extends SQLiteOpenHelper
     private static final String KEY_PASSWORD = "password";
     private static final String KEY_CONTACT = "contact";
 
+
     public DatabaseHandler(Context context)
     {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
