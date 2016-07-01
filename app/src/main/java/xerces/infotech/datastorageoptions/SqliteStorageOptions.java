@@ -39,6 +39,7 @@ public class SqliteStorageOptions extends Activity implements View.OnClickListen
             case R.id.save_values_button:
                                         UserDataModelClass userDataModelClass = new UserDataModelClass(mUsernameEditText.getText().toString(), mPasswordEditText.getText().toString(), mPasswordEditText.getText().toString());
                                         mDatabaseHandler.addUserDetails( userDataModelClass );
+                                        clear();
                                     break;
             case R.id.view_values_button:
                                         UserDataModelClass userDataModelClass1;
@@ -46,5 +47,11 @@ public class SqliteStorageOptions extends Activity implements View.OnClickListen
                                         mViewSavedValueTextView.setText( "UserName is:"+userDataModelClass1.getUserName()+"\n Password is:"+userDataModelClass1.getPassword()+"\n Contact is :"+userDataModelClass1.getContact() );
                                     break;
         }
+    }
+    public void clear()
+    {
+        mUsernameEditText.setText("");
+        mPasswordEditText.setText("");
+        mContactEditText.setText("");
     }
 }

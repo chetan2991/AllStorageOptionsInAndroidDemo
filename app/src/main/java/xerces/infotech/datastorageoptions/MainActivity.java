@@ -47,8 +47,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Intent externalstorageintent = new Intent(MainActivity.this, UseExternalStorageOptions.class);
                 startActivity(externalstorageintent);
                 break;
-
-
         }
 
     }
